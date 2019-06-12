@@ -12,6 +12,7 @@ function App(props) {
       <button onClick={() => props.handleClick(inputRef.current.value)}>
         Generate
       </button>
+      <p>{props.trivia}</p>
     </div>
   );
 }
