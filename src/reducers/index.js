@@ -5,7 +5,6 @@ import {
 } from '../actions';
 
 const initialState = {
-  number: null,
   trivia: '',
   fetching: false,
   error: null,

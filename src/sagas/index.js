@@ -19,6 +19,7 @@ function fetchNumbersTrivia(number) {
 
 // make the API call when watcher saga sees the action
 function* workerSaga({ number }) {
+  console.log(number);
   try {
     if (!number.length) {
       number = 'random';
